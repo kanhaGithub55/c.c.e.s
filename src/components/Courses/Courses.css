@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* outline: 1px solid red; */
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: "Be Vietnam Pro", sans-serif;
+
+}
+
+/* ---------------------------------------------hero--------------------------------------  */
+
+.hero1{
+    display: flex;
+    margin-inline: auto;
+    justify-content: space-evenly;
+    max-width: 85%;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.hero1 p{
+    max-width: 550px;
+    color: #59595A;
+    line-height: 25px;
+}
+
+/* -------------------------------------------------course sec---------------------  */
+
+.webimg{
+    max-width: 85%;
+    margin-inline: auto;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    margin: 40px auto;
+}
+  
+.courses-view{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.courses-head{
+    display: flex;
+    /* width: 100%; */
+    /* border: 2px solid red; */
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.courses-text{
+    max-width: 940px;
+}
+
+.courses-text p{
+    line-height: 20px;
+    margin-top: 10px;
+    color: #333333;
+}
+
+.view a{
+    text-decoration: none;
+    display: block;
+    padding: 12px 15px ;
+    background-color: #F1F1F3;
+    border-radius: 8px;
+    font-size: 16px;
+    color: black;
+
+  }
+
+    /* ---image --- */
+
+
+  .imgweb{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .imgweb img{
+    width: 360px;
+  }
+
+  .week{
+    margin-right: 10px;
+    background-color: white;
+    padding: 7px 10px;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+}
+
+  .p{
+
+    margin-top: 20px;
+    display: flex;
+    gap: 20px ;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* --number -- */
+
+.weblast{
+    border: 1px solid #F1F1F3;
+    margin-top: 35px;
+    border-radius: 8px;
+}
+
+.hadding-curr{
+
+    border: 1px solid #F1F1F3;    
+    padding: 15px 20px;
+    border-radius: 8px 8px 0px 0px;
+
+}
+
+.num{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+}
+
+.i01{
+    width: 150px;
+}
+
+.io1{
+    color: #333333;
+}
+
+@media(max-width:768px){
+
+    /* .button {
+        display: none;
+    } */
+
+    .hero1{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero1 h1{
+        font-size: 25px;
+    }
+
+    .courses-head{
+        flex-direction: column;
+        /* justify-content: flex-start; */
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .imgweb img{
+        max-width: 32%;
+        border-radius: 8px;
+
+    }
+
+    .p{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .num{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .i01{
+        width: 100%;
+        border-bottom: 1px solid #F1F1F3;
+        padding-bottom: 20px;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .sub-container-two{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    
+
+}

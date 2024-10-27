@@ -1,0 +1,301 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* outline: 1px solid red; */
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: "Be Vietnam Pro", sans-serif;
+
+}
+
+/* -------------------------card 2-----------------------------  */
+
+.login-here{
+    max-width: 85%;
+    margin-inline: auto;
+    margin-top: 30px;
+}
+
+.login-contener{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.para-contenat{
+    max-width: 55%;
+    line-height: 20px;
+}
+
+.para-contenat h2{
+    margin-bottom: 10px;
+}
+
+.para-contenat p{
+    color: #59595A;
+}
+
+.intro-card-1{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 20px;
+
+}
+
+.intro-para p{
+    padding: 20px 25px;
+    color: #4C4C4D  ;
+
+}
+
+.img-person{
+    /* display: flex;
+    align-items: center;
+    padding: 20px; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.img-person img{
+    max-width: 50px;
+}
+
+.intro-img{
+    display: flex;
+    padding: 20px 25px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FCFCFD;
+    /* background-color: #FCFCFD; */
+
+    border-top: 1px solid #f1f1f8;
+
+    border-radius: 8px;
+
+    
+}
+
+.intro-button button{
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: none;
+}
+
+.arrow-img{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+/* -----------------login card----------- */
+
+
+.log{
+    max-width:  35%;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    margin-inline: auto;
+}
+
+.login-card{
+    line-height: 30px;
+}
+
+.login-card h2{
+    text-align: center;
+}
+
+.log-2 {
+    text-align: center;
+}
+
+
+.email1 input{
+    padding: 10px 5px;
+    /* display: block; */
+    border-radius: 6px;
+    background-color: #FCFCFD;
+    border: 1px solid #f1f1f3;
+    width: 100%;
+}
+
+.login-from{
+    padding-block: 20px;
+}
+
+.email1{
+    margin-bottom: 20px;
+    /* border: 1px solid #f1f1f3; */
+}
+
+#pass{
+    /* text-align: end; */
+    display: flex;
+    justify-content: right;
+    /* border: 10px solid red; */
+    text-decoration: none;
+    color: black;
+}
+
+.Check-box{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+
+.price-button{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #FF9500;
+    /* border-radius: 0px 0px 10px 10px; */
+}
+
+.price-button button{
+    border: none;
+    color: #FFFFFF;
+    background-color: #FF9500;
+    font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.google-button{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: #F7F7F8;
+}
+
+.google-button button{
+    border: none;
+    color: black;
+    background-color: #F7F7F8;
+    font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.border-line{
+    padding-block: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-line *{
+    position: absolute;
+}
+
+.border-line hr{
+    border: 1px solid #E4E4E7;
+    width: 100%;
+}
+
+.border-line p{
+    font-size: 12px;
+    background: #FFFFFF;
+    color: rgb(184,183,183);
+    padding-inline: 5px;
+}
+
+.javed-button{
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    /* background-color: #FF9500; */
+}
+
+.javed-button button{
+    border: none;
+    /* color: #FFFFFF; */
+    /* background-color: #FF9500; */
+    font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+.for-signup{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.for-signup a{
+ /* text-decoration: none; */
+ color: black;
+}
+
+
+@media(max-width:768px){
+/* 
+    .button {
+        display: none;
+    } */
+
+    .login-contener{
+        /* flex-direction: column; */
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        max-width: 100%;
+    }
+
+    .para-contenat{
+        max-width: 100%;
+    }
+
+    .log{
+        max-width: 100%;
+    }
+
+    .arrow-img{
+        justify-content: center;
+    }
+
+    .google-button img{
+        width: 22px;
+    }
+
+    .google-button button{
+        font-size: 16px;
+    }
+
+    
+
+    /* footer */
+
+.footer-container{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sub-container-two{
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+}
+
+
+@media (max-width:430px) {
+    .login-button{
+      gap: 0px;
+    }
+  
+    #login{
+      padding: 10px;
+    }
+  }

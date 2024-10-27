@@ -1,0 +1,172 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  /* outline: 1px solid red; */
+}
+
+body{
+  background-color: whitesmoke;
+  font-family: "Be Vietnam Pro", sans-serif;
+
+}
+
+ /* Container  */
+  
+ .container01{
+    width: 85%;
+    margin: auto;
+  }
+  .inner-cont-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .text-heading{
+    max-width: 800px;
+    padding-block: 60px;
+    font-size: 18px;
+    /* border: 1px red solid; */
+  }
+  .text-paragraph{
+    max-width: 700px;
+    padding-block: 60px;
+    color: #59595A;
+    line-height: 22px;
+    font-size: 16 px;
+    /* border: 1px solid yellow; */  
+  }
+  #line{
+   border: 1px solid #E4E4E7;
+  }
+  
+  /* Container-1  */
+  
+  .inner-cont-text-1{
+    font-size: 18px;
+    color:  #333333;
+    font-weight: 400;
+    margin-top: 70px;
+  }
+  .inner-cont-text-1 h2{
+    padding-block: 15px;
+  }
+  .inner-cont-text-1 p{
+    font-size: 16px;
+    color: #59595A;
+    line-height: 25px;
+  }
+  
+  /* .Sub-Container  */
+  
+  .card-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .card{
+    max-width: 42%;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    /* outline: 1px solid red; */
+  }
+  .card img{
+    width: 50px;
+  }
+  .card h5{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+  }
+  .card p{
+    font-size: 16px;
+    color: #59595A;
+    line-height: 25px;
+  }
+  
+
+  
+  
+  
+
+  .last-card-1 {
+    padding: 40px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    border-radius: 9px;
+    background-image: url(/About-page/Abstract\ Design.png);
+    background-size: 280px ;
+    background-repeat: no-repeat;
+    background-position: 85% 50%;
+}
+
+
+.last-card-1 h1 {
+    font-size: 40px;
+    max-width: 900px;
+}
+
+.last-card-1 span {
+    color: #FF9500;
+}
+
+.last-card-1 button {
+    border: none;
+    padding: 14px 16px;
+    background-color: #FF9500;
+    border-radius: 8px;
+}
+  
+
+@media(max-width:768px){
+
+  /* .button {
+      display: none;
+  } */
+  
+  .inner-cont-text{
+      flex-direction: column;
+      gap: 20px;
+      align-items: flex-start;
+  }
+  
+  .text-heading{
+      padding-block: 0px;
+      margin-top: 20px;
+  }
+  
+  .text-paragraph{
+      padding-block: 0px;
+  }
+  
+  .card-container{
+      flex-direction: column;
+      gap: 20px;
+  }
+  
+  .card{
+      max-width: 100%;
+  }
+  
+  .last-card-1{
+      flex-direction: column;
+      gap: 20px;
+      background-image: none;
+  }
+  
+  .footer-container{
+      flex-direction: column;
+      gap: 20px;
+  }
+  
+  .sub-container-two{
+      flex-direction: column;
+      gap: 20px;
+  }
+  
+  
+  }

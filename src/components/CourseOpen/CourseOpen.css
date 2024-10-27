@@ -1,0 +1,170 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* outline: 1px solid red; */
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: "Be Vietnam Pro", sans-serif;
+
+}
+
+.hero2{
+    display: flex;
+    margin-inline: auto;
+    justify-content: space-between;
+    max-width: 85%;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.hero2 p{
+    max-width: 550px;
+    color: #59595A;
+    line-height: 25px;
+}
+
+/* -----------cont img-----------------  */
+
+.cont-img{
+    max-width: 85%;
+    margin-inline: auto;
+    margin-top: 30px;
+}
+
+.cont-img img{
+    /* margin-inline: auto; */
+    width: 100%;
+}
+
+
+/* coursecards */
+
+.main-cont-card{
+    max-width: 85%;
+    margin-inline: auto;
+}
+
+.main-subcont-card{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 10px;
+
+
+}
+
+.firstcard{
+    /* border: 1px solid red; */
+    width: 45%;
+    padding: 25px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.firstcard h1{
+    text-align: end;
+    margin-bottom: 30px;
+}
+
+.itemscontaner{
+    margin-top: 25px;
+}
+
+.feature-item-01{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #F1F1F3 ;
+    margin: 10px 0px 10px 0px ;
+    line-height: 25px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.items1 {
+    color: #59595A;
+}
+
+
+.feature-item-01:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    
+}
+
+
+
+
+
+
+.buttomitem1{
+    display: flex;
+    gap: 5px;
+    background-color: #F7F7F8;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.buttomitem1 img{
+    width: 20px;
+    /* height: auto; */
+
+
+}
+
+.buttomitem1 p{
+    color: #59595A;
+}
+
+
+
+.role{
+    max-width: 300px;
+}
+
+
+@media(max-width:768px){
+
+    /* .button {
+        display: none;
+    } */
+
+    .hero2{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .main-subcont-card{
+        flex-direction: column;
+        /* width: 100%; */
+    }
+
+    .feature-item-01{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .firstcard{
+        width: 85%;
+        padding: 16px;
+    }
+
+
+
+    .footer-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .sub-container-two{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}    

@@ -1,0 +1,178 @@
+
+
+#head-line{
+    background-color: #FF9500;
+    text-align: center;      
+    margin: 10px 15px 0px 15px;
+    padding: 15px 0px ;
+    border-radius: 8px;
+    color: #FFFFFF;
+  
+  }
+  
+  .arrow{
+    margin-left: 15px;
+    max-width: 15px;
+  }
+  
+  
+  .navbar{
+    display: flex;
+    align-items: center;
+    margin: 10px 15px 0px 15px;
+    /* padding: 10px 100px; */
+    margin-inline: auto;
+    max-width: 85%;
+    
+    justify-content: space-between;
+  }
+  
+  .logo img{
+    max-width: 50px;
+  }
+  
+  .container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+  }
+  
+  .button a{
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px 24px 10px 24px ;
+    color: #262626;
+  
+  }
+  
+  /* .button-section{
+    background-color: #FF9500;
+    color: #FFFFFF;
+  } */
+  
+  .button-section02{
+    color: #262626  ;
+  }
+
+  .button a:hover{
+  
+    background-color: #FF9500;  
+    
+  }
+  
+  .login-button a{
+    text-decoration: none;
+    color: #262626;
+    border-radius: 8px;
+    padding: 14px 24px 14px 24px ;
+    /* color: #262626; */
+  }
+  
+  .login-button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+  }
+
+  .login-menu{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .login-button a:hover{
+    background-color: #FF9500;
+    color: #ffffff;
+  }
+
+  /* --------manu bar------ */
+
+  .mob img{
+    width: 100px;
+    margin-inline: auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .ham{
+  display:none;
+} */
+
+.hide {
+  display:none;
+}
+
+.mob h1{
+  text-align: center;
+  margin-bottom: 30px;
+  color: #FF9500;
+}
+
+
+.mob {
+  /* outline:1px solid red; */
+  /* display: flex; */
+  right: 0;
+  top:0;
+  bottom: 0;
+  position: absolute;
+  background-color: white;
+  width: 60%;
+}
+.mob ul{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  /* padding: 0px 100px; */
+  list-style-type: none;
+
+}
+
+.mob ul li a{
+  text-decoration: none;
+  background-color: #FCFCFD;
+  box-shadow: 0px 3px 3px 0px #FFEACC;
+  border-radius: 8px;
+}
+
+.mob ul li a:hover{
+  background-color: #F1F1F3;
+}
+
+.mob a{
+  padding: 10px 15px;
+  /* border: 2px solid red; */
+  display: inline-block;
+}
+
+@media (max-width:768px) {
+  
+  .ham{
+      display:block;
+  }
+
+  .button {
+    display: none;
+}
+
+
+
+ 
+}
+
+@media (max-width:430px) {
+  .login-button{
+    gap: 50px;
+  }
+
+  #login{
+    padding: 10px;
+  }
+}
+
